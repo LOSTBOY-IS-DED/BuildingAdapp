@@ -18,7 +18,7 @@ function App() {
   // create own alchemy url
   return (
     <>
-      <ConnectionProvider endpoint={"https://api.devenet.solana.com"}>
+      <ConnectionProvider endpoint={"https://api.devnet.solana.com/"}>
         <WalletProvider wallets={[]} autoConnect>
           <WalletModalProvider>
             <div className="app-container">
